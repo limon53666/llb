@@ -1,0 +1,229 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7ccfc8786b540024490fe07ade7f2eeb") format("truetype"),
+url("./flaticon.woff?7ccfc8786b540024490fe07ade7f2eeb") format("woff"),
+url("./flaticon.woff2?7ccfc8786b540024490fe07ade7f2eeb") format("woff2"),
+url("./flaticon.eot?7ccfc8786b540024490fe07ade7f2eeb#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7ccfc8786b540024490fe07ade7f2eeb#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "book": "\f101",
+    "calendar-interface-symbol-tool": "\f102",
+    "calendar": "\f103",
+    "check": "\f104",
+    "clipboard": "\f105",
+    "comment": "\f106",
+    "dollars-money-bag-with-a-clock": "\f107",
+    "down-arrow": "\f108",
+    "down-chevron": "\f109",
+    "email-1": "\f10a",
+    "email-2": "\f10b",
+    "email": "\f10c",
+    "envelope": "\f10d",
+    "facebook": "\f10e",
+    "geography": "\f10f",
+    "instagram-1": "\f110",
+    "instagram": "\f111",
+    "linkedin": "\f112",
+    "loupe": "\f113",
+    "maps-and-flags": "\f114",
+    "medal-of-award": "\f115",
+    "mortarboard": "\f116",
+    "online-learning-1": "\f117",
+    "online-learning": "\f118",
+    "open-book": "\f119",
+    "paper-plane": "\f11a",
+    "phone-call-1": "\f11b",
+    "phone-call": "\f11c",
+    "placeholder": "\f11d",
+    "quote-left": "\f11e",
+    "quote": "\f11f",
+    "right-quotation-mark": "\f120",
+    "round-account-button-with-user-inside": "\f121",
+    "searching": "\f122",
+    "send": "\f123",
+    "skype": "\f124",
+    "star-1": "\f125",
+    "star-2": "\f126",
+    "star": "\f127",
+    "strategy-in-a-labyrinth": "\f128",
+    "teacher": "\f129",
+    "telephone": "\f12a",
+    "trend": "\f12b",
+    "twitter": "\f12c",
+    "user-1": "\f12d",
+    "user-2": "\f12e",
+    "user-3": "\f12f",
+    "user-4": "\f130",
+    "user": "\f131",
+    "wall-clock": "\f132",
+    "youtube": "\f133",
+);
+
+.flaticon-book:before {
+    content: map-get($flaticon-map, "book");
+}
+.flaticon-calendar-interface-symbol-tool:before {
+    content: map-get($flaticon-map, "calendar-interface-symbol-tool");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-clipboard:before {
+    content: map-get($flaticon-map, "clipboard");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-dollars-money-bag-with-a-clock:before {
+    content: map-get($flaticon-map, "dollars-money-bag-with-a-clock");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon-map, "down-arrow");
+}
+.flaticon-down-chevron:before {
+    content: map-get($flaticon-map, "down-chevron");
+}
+.flaticon-email-1:before {
+    content: map-get($flaticon-map, "email-1");
+}
+.flaticon-email-2:before {
+    content: map-get($flaticon-map, "email-2");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-geography:before {
+    content: map-get($flaticon-map, "geography");
+}
+.flaticon-instagram-1:before {
+    content: map-get($flaticon-map, "instagram-1");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
+.flaticon-loupe:before {
+    content: map-get($flaticon-map, "loupe");
+}
+.flaticon-maps-and-flags:before {
+    content: map-get($flaticon-map, "maps-and-flags");
+}
+.flaticon-medal-of-award:before {
+    content: map-get($flaticon-map, "medal-of-award");
+}
+.flaticon-mortarboard:before {
+    content: map-get($flaticon-map, "mortarboard");
+}
+.flaticon-online-learning-1:before {
+    content: map-get($flaticon-map, "online-learning-1");
+}
+.flaticon-online-learning:before {
+    content: map-get($flaticon-map, "online-learning");
+}
+.flaticon-open-book:before {
+    content: map-get($flaticon-map, "open-book");
+}
+.flaticon-paper-plane:before {
+    content: map-get($flaticon-map, "paper-plane");
+}
+.flaticon-phone-call-1:before {
+    content: map-get($flaticon-map, "phone-call-1");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-quote-left:before {
+    content: map-get($flaticon-map, "quote-left");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}
+.flaticon-right-quotation-mark:before {
+    content: map-get($flaticon-map, "right-quotation-mark");
+}
+.flaticon-round-account-button-with-user-inside:before {
+    content: map-get($flaticon-map, "round-account-button-with-user-inside");
+}
+.flaticon-searching:before {
+    content: map-get($flaticon-map, "searching");
+}
+.flaticon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.flaticon-skype:before {
+    content: map-get($flaticon-map, "skype");
+}
+.flaticon-star-1:before {
+    content: map-get($flaticon-map, "star-1");
+}
+.flaticon-star-2:before {
+    content: map-get($flaticon-map, "star-2");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-strategy-in-a-labyrinth:before {
+    content: map-get($flaticon-map, "strategy-in-a-labyrinth");
+}
+.flaticon-teacher:before {
+    content: map-get($flaticon-map, "teacher");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-trend:before {
+    content: map-get($flaticon-map, "trend");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon-map, "twitter");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon-map, "user-1");
+}
+.flaticon-user-2:before {
+    content: map-get($flaticon-map, "user-2");
+}
+.flaticon-user-3:before {
+    content: map-get($flaticon-map, "user-3");
+}
+.flaticon-user-4:before {
+    content: map-get($flaticon-map, "user-4");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-wall-clock:before {
+    content: map-get($flaticon-map, "wall-clock");
+}
+.flaticon-youtube:before {
+    content: map-get($flaticon-map, "youtube");
+}
